@@ -3,12 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-type HeaderProps = {
-    name: string
+export interface TaxAssistNavProps {
+  name: string
 }
 
 
-const TaxAssistNav = ({name} : HeaderProps) => (
+const TaxAssistNav = ({ name }: TaxAssistNavProps) => (
   <>
     <Navbar bg="light" expand="lg">
       <Navbar.Brand href="#home">Tax Assist</Navbar.Brand>

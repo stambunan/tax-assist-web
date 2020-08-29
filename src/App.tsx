@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import TaxAssistNav from "./components/tax-assist-nav/TaxAssistNav";
+import TaxAssistNav from "./components/TaxAssistNav";
 
 
 const App = () => (
